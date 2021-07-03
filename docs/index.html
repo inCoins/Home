@@ -1,13 +1,33 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>inCoin</title>
+    <title>inCoin Club</title>
 </head>
 
 <body>
-    <h1>Hello, inCoin</h1>
+    <script type="text/javascript">
+        var userAgent = navigator.userAgent.toLowerCase();
+        var platform;
+        if (userAgent == null || userAgent == '') {
+            platform = 'WEB';
+        } else {
+            if (userAgent.indexOf("android") != -1) {
+                platform = 'ANDROID';
+                location.href = "https://incoins.github.io/Home/m/index.html";
+            } else if (userAgent.indexOf("ios") != -1 || userAgent.indexOf("iphone") != -1 || userAgent.indexOf("ipad") != -1) {
+                platform = 'IOS';
+                location.href = "https://incoins.github.io/Home/m/index.html";
+            } else if (userAgent.indexOf("windows phone") != -1) {
+                platform = 'WP';
+                location.href = "https://incoins.github.io/Home/m/index.html";
+            } else {
+                platform = 'WEB';
+                location.href = "https://incoins.github.io/Home/p/index.html";
+            }
+        }
+    </script>
 </body>
 
 </html>
