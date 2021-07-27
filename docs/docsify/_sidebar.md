@@ -1,0 +1,21 @@
+* [Community conventions](/en/)
+* [join](/en/join)
+* [mission](/en/mission)
+* [team](/en/team)
+  * **Legislature**
+    * [senate](en/senate)
+    * [opinion](en/opinion)
+  * **Administrative**
+    * [premier](en/premier)
+    * [reserve](en/reserve)
+    * cabinet
+      * [interior](en/interior)
+      * [manpower](en/manpower)
+      * [secretary](en/secretary)
+      * [archives](en/archives)
+      * [finance](en/finance)
+      * [diplomacy](en/diplomacy)
+      * [statute](en/statute)
+  * **Judicial**
+    * [court](en/court)
+    * [supervision](en/supervision)
