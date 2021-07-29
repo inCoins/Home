@@ -9,22 +9,18 @@
 <body>
     <script type="text/javascript">
         var userAgent = navigator.userAgent.toLowerCase();
-        var platform;
+        var domain = "https://www.incoin.fun"
         if (userAgent == null || userAgent == '') {
-            platform = 'WEB';
+            location.href = domain + "/p/index.html";
         } else {
             if (userAgent.indexOf("android") != -1) {
-                platform = 'ANDROID';
-                location.href = "https://incoins.github.io/Home/m/index.html";
+                location.href = domain + "/m/index.html";
             } else if (userAgent.indexOf("ios") != -1 || userAgent.indexOf("iphone") != -1 || userAgent.indexOf("ipad") != -1) {
-                platform = 'IOS';
-                location.href = "https://incoins.github.io/Home/m/index.html";
+                location.href = domain + "/m/index.html";
             } else if (userAgent.indexOf("windows phone") != -1) {
-                platform = 'WP';
-                location.href = "https://incoins.github.io/Home/m/index.html";
+                location.href = domain + "/m/index.html";
             } else {
-                platform = 'WEB';
-                location.href = "https://incoins.github.io/Home/p/index.html";
+                location.href = domain + "/p/index.html";
             }
         }
     </script>
